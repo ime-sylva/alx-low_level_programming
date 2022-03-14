@@ -3,7 +3,7 @@
 /**
  * main - Prints a hexadecimal string
  *
- * Retun: Always (Success)
+ * Retun: Always (Success);
  */
 
 int main(void)
