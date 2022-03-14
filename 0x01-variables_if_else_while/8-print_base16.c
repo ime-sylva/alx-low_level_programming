@@ -1,22 +1,23 @@
 #include <stdio.h>
 
 /**
- * main - Prints a hexadecimal string
+ * main - entry point
  *
- * Retun: Always (Success)
+ * Retun: Always 0 (success/correct)
  */
+
 int main(void)
 {
-	char c;
+	char base_16;
 
-	for (c = '0'; c <= '9'; c++)
+	for (base_16 = 48; base_16 <= 57; base_16++)
 	{
-		putchar(c);
+		putchar(base_16);
 	}
 
-	for (c = 'a'; c <= 'f'; c++)
+	for (base_16 = 97; base_16 <= 102; base_16++)
 	{
-		putchar(c);
+		putchar(base_16);
 	}
 
 	putchar('\n');
