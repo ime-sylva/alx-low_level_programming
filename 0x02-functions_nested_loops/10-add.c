@@ -14,5 +14,5 @@ int add(int i, int k)
 
 	m = i + k;
 
-	return (m);
+	return(m);
 }
