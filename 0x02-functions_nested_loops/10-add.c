@@ -2,16 +2,14 @@
 #include <stdio.h>
 
 /**
- * add - prints add two numbers
- * @i: print int i
- * @k: print int k
- * Retun: Always 0.
+ * add - adds two integers and returns the result
+ * @i: int to be added to i
+ * @k: int to be added to k
+ * Retun: sum of i and k
  */
 
 int add(int i, int k)
 {
-	 /* body of main function */
-
 	int m;
 
 	m = i + k;
