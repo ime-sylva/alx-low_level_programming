@@ -10,6 +10,8 @@
 
 int add(int i, int k)
 {
+	 /* body of main function */
+
 	int m;
 
 	m = i + k;
